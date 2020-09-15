@@ -8,7 +8,8 @@ class Appointment
   end
 
   #def initialize(date"Monday, August 1st", doctor)
-  #
+  #@date = date
+  #@dotor = doctor
   #end
 
 end
