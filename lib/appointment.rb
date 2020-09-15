@@ -7,9 +7,10 @@ class Appointment
     @@all
   end
 
-  #def initialize(date"Monday, August 1st", doctor)
+  #def initialize(date, doctor)
   #@date = date
   #@dotor = doctor
+  #@@all << self
   #end
 
 end
