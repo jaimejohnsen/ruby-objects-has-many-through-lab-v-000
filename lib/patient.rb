@@ -17,7 +17,7 @@ class Patient
   end
 
  def appointments
-   @appointments = apointment
+   @appointments = appointment
 
  end
 
