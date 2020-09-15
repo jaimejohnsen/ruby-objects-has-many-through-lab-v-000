@@ -16,10 +16,10 @@ class Patient
     Appointment.new(date, self, doctor)
   end
 
-# def appointments
-# @appointments = apointment
-#
-# end
+ def appointments
+   @appointments = apointment
+
+ end
 
 # def doctors
 #
