@@ -22,7 +22,10 @@ class Patient
    end
  end
 
-# def doctors
-#
-# end
+ def doctors
+   appointments.collect do |appointment|#this is "has many through", patient has many doctors through appts.
+      appointments.doctors
+    end
+  end
+
 end
