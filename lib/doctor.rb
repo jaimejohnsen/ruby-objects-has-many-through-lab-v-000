@@ -16,12 +16,11 @@ class Doctor
     Appointment.new(date, patient, self)
   end
 
-  #def appointments
-    #@appointments = appointments
-    #Appointment.all.select do |appointment|
-    #appointment.doctor == self
-    #end
-  #end
+  def appointments
+    Appointment.all.select do |appointment|
+    appointment.doctor == self
+    end
+  end
 
 
   #def appointments
