@@ -22,16 +22,8 @@ class Doctor
     end
   end
 
-
-  #def appointments
-  #@appointments = appointments
-  # Apointment.all select do |appt|
-  #appointments.doctor == self
-  #end
-
-  #def patients
-  #@patients = patients
-  #
-  #end
+  def patients
+    
+  end
 
 end
